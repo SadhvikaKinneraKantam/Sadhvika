@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup for IEKart Shopping</title>
+  </head>
+  <body>
+    <h1>Signup for IEKart Shopping</h1>
+    <form action="signup.php" method="post">
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstname" required minlength="2" maxlength="50"><br><br>
+
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname" required minlength="2" maxlength="50"><br><br>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required minlength="8" maxlength="20"><br><br>
+
+      <label for="confirmpassword">Confirm Password:</label>
+      <input type="password" id="confirmpassword" name="confirmpassword" required minlength="8" maxlength="20"><br><br>
+
+      <input type="submit" value="Signup">
+    </form>
+  </body>
+</html>
